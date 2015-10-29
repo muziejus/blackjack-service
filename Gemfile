@@ -10,6 +10,7 @@ gem "foreman"
 gem "shotgun"
 
 group :test, :development do
+  gem 'cucumber'
   gem 'rack-test', require: 'rack/test'
   gem 'rspec'
   gem 'factory_girl'
